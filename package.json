@@ -1,7 +1,6 @@
 {
   "name": "itis-6177-week-01",
   "version": "1.0.0",
-  "description": "",
   "main": "helloworld.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +15,7 @@
   "bugs": {
     "url": "https://github.com/ajsm1th/ITIS-6177-Week-01/issues"
   },
-  "homepage": "https://github.com/ajsm1th/ITIS-6177-Week-01#readme"
+  "homepage": "https://github.com/ajsm1th/ITIS-6177-Week-01#readme",
+  "keywords": [],
+  "description": ""
 }

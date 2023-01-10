@@ -1,11 +1,10 @@
 // Importing the http module
-const http = require("http")
+var http = require('http');
   
 // Creating server 
-const server = http.createServer((req, res) => {
-    // Sending the response
-    res.write("Hello World")
-    res.end();
-})
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/html'});
+  res.end('Hello World!');
+}).listen(8080);
   
 
